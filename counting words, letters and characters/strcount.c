@@ -33,7 +33,7 @@ int main(){
 
 int LetterCount(char array[]){
 
-    int count;
+    int count=0;
 
     for(int i=0;array[i]!='\0';i++){
 
@@ -47,7 +47,7 @@ int LetterCount(char array[]){
 
 int CharacterCount(char array[]){
 
-    int count;
+    int count=0;
 
     for(int i=0;array[i]!='\0';i++){
         count++;
@@ -57,7 +57,7 @@ int CharacterCount(char array[]){
 }
 
 int WordCount(char array[]){
-    int count;
+    int count=0;
 
     for(int i=0;array[i]!='\0';i++){
         if(
